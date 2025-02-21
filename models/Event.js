@@ -21,6 +21,10 @@ const eventSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now
+  },
+  content: {
+    type: String,
+    required: true
   }
 });
 
